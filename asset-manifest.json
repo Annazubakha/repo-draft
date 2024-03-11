@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/repo-draft/static/css/main.cf220767.css",
+    "main.js": "/repo-draft/static/js/main.90498aaf.js",
+    "static/media/Logo.svg": "/repo-draft/static/media/Logo.3fd1096c16b5a8bac75fce5e880dd73f.svg",
+    "index.html": "/repo-draft/index.html",
+    "main.cf220767.css.map": "/repo-draft/static/css/main.cf220767.css.map",
+    "main.90498aaf.js.map": "/repo-draft/static/js/main.90498aaf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf220767.css",
+    "static/js/main.90498aaf.js"
+  ]
+}
