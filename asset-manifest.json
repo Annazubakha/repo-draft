@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/repo-draft/static/css/main.cf220767.css",
-    "main.js": "/repo-draft/static/js/main.90498aaf.js",
-    "static/media/Logo.svg": "/repo-draft/static/media/Logo.3fd1096c16b5a8bac75fce5e880dd73f.svg",
-    "index.html": "/repo-draft/index.html",
-    "main.cf220767.css.map": "/repo-draft/static/css/main.cf220767.css.map",
-    "main.90498aaf.js.map": "/repo-draft/static/js/main.90498aaf.js.map"
+    "main.css": "/website-Anna-Zubakha/static/css/main.3c99a739.css",
+    "main.js": "/website-Anna-Zubakha/static/js/main.8a342947.js",
+    "static/media/Logo.svg": "/website-Anna-Zubakha/static/media/Logo.147585b88fedf1d51c7d54a2fb66186e.svg",
+    "static/media/GithubIcon.svg": "/website-Anna-Zubakha/static/media/GithubIcon.3c903c66b2c5334c8c0b80567c4ea422.svg",
+    "index.html": "/website-Anna-Zubakha/index.html",
+    "static/media/LinkedinIcon.svg": "/website-Anna-Zubakha/static/media/LinkedinIcon.15f0337078f13db400acab3639711ec7.svg",
+    "main.3c99a739.css.map": "/website-Anna-Zubakha/static/css/main.3c99a739.css.map",
+    "main.8a342947.js.map": "/website-Anna-Zubakha/static/js/main.8a342947.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf220767.css",
-    "static/js/main.90498aaf.js"
+    "static/css/main.3c99a739.css",
+    "static/js/main.8a342947.js"
   ]
 }
