@@ -1,0 +1,27 @@
+.header {
+  height: 85px;
+  width: 100%;
+
+  background-color: #541c66;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.nav {
+  width: 100%;
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_list {
+  display: flex;
+  gap: 30px;
+}
+.header_list_item {
+  font-size: 30px;
+  letter-spacing: 3px;
+}

@@ -1,16 +1,19 @@
-import { Link } from 'react-router-dom';
-
-import s from './Home.module.css';
-
+import Hero from 'components/Hero/Hero';
+// import s from './Home.module.css';
+import SharedLayout from '../../components/SharedLaout/SharedLayout';
+import Skills from 'components/Skills/Skills';
+import AboutMe from 'components/AboutMe/AboutMe';
+import Portfolio from 'components/Portfolio/Portfolio';
 export const Home = () => {
   return (
-    <div className={s.container}>
-      <h1 className={s.title}>
-        Welcome to the <span className={s.title_span}>TWEETS</span> application
-      </h1>
-      <Link to="/tweets" className={s.link}>
-        Get start
-      </Link>
-    </div>
+    <>
+      <SharedLayout />
+      <div className="container">
+        <Hero />
+        <Skills />
+        <AboutMe />
+        <Portfolio />
+      </div>
+    </>
   );
 };
