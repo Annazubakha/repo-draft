@@ -1,15 +1,16 @@
 @import-normalize; /* bring in normalize.css styles */
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
 
 :root {
   --background-color: #1d1135;
+  --background-header: #541c66;
   --text-color: #fcfbfe;
-  /* Font-size */
-  /* --font-size-mini: 12px; */
+  --hover: #8c5c74;
+
   /* --transition-delay: 350ms; */
   /* --transition: ease; */
 }
@@ -21,10 +22,10 @@ html {
     sans-serif;
   margin: 0;
   box-sizing: border-box;
-  /* background-color: var(--background-color); */
   font-family: 'Oxygen', sans-serif;
   font-weight: 400;
   color: var(--text-color);
+
   background: linear-gradient(to bottom left, var(--background-color), #8c2b6b);
 }
 
@@ -71,7 +72,7 @@ img {
   height: auto;
 }
 
-/* Container */
+/* Container
 
 .container {
   margin: 0 auto;
@@ -93,4 +94,4 @@ img {
     max-width: 1440px;
     padding: 0 100px;
   }
-}
+} */

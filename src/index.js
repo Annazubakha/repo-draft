@@ -17,7 +17,7 @@ import { BrowserRouter } from 'react-router-dom';
 // );
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename="/repo-draft">
+  <BrowserRouter basename="/website-Anna-Zubakha">
     <App />
     <ToastContainer autoClose={2000} />
   </BrowserRouter>

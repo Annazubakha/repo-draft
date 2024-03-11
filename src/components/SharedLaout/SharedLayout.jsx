@@ -7,12 +7,12 @@ import { Loader } from 'components';
 
 const SharedLayout = () => {
   return (
-    <div>
+    <>
       <Header />
       <Suspense fallback={<Loader />}>
         <Outlet />
       </Suspense>
-    </div>
+    </>
   );
 };
 

@@ -1,8 +1,7 @@
 .header {
   height: 85px;
   width: 100%;
-
-  background-color: #541c66;
+  background-color: var(--background-header);
   display: flex;
   align-items: center;
   position: fixed;
@@ -17,11 +16,24 @@
   align-items: center;
   justify-content: space-between;
 }
+
 .header_list {
   display: flex;
   gap: 30px;
 }
 .header_list_item {
   font-size: 30px;
-  letter-spacing: 3px;
+  letter-spacing: 1.5px;
+  display: flex;
+  align-items: center;
+}
+
+.header_list_item:hover,
+.header_list_item:focus {
+  color: var(--hover);
+}
+
+.icon {
+  width: 36px;
+  height: 36px;
 }
