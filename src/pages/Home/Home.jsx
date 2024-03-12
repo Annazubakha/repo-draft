@@ -8,9 +8,11 @@ export const Home = () => {
   return (
     <>
       <SharedLayout />
-      <Hero />
-      <AboutMe />
-      <Portfolio />
+      <main className="container">
+        <Hero />
+        <Portfolio />
+        <AboutMe />
+      </main>
       <Footer />
     </>
   );
