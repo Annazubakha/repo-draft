@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/website-Anna-Zubakha/static/css/main.3c99a739.css",
-    "main.js": "/website-Anna-Zubakha/static/js/main.8a342947.js",
+    "main.css": "/website-Anna-Zubakha/static/css/main.7d15fda7.css",
+    "main.js": "/website-Anna-Zubakha/static/js/main.a50b475c.js",
+    "static/media/boutique@2x.png": "/website-Anna-Zubakha/static/media/boutique@2x.f0aec1ec0436f467dabe.png",
+    "static/media/tracker@2x.png": "/website-Anna-Zubakha/static/media/tracker@2x.537d875a8ef727c9dcbf.png",
+    "static/media/vyshyvanka@2x.png": "/website-Anna-Zubakha/static/media/vyshyvanka@2x.713c2e74ddb76ea662b1.png",
+    "static/media/boutique@1x.png": "/website-Anna-Zubakha/static/media/boutique@1x.e2da72c84e6c82e4445e.png",
+    "static/media/tracker@1x.png": "/website-Anna-Zubakha/static/media/tracker@1x.92ac89a11fef778e4cf3.png",
+    "static/media/vyshyvanka@1x.png": "/website-Anna-Zubakha/static/media/vyshyvanka@1x.48dc487e62fe90955eed.png",
     "static/media/Logo.svg": "/website-Anna-Zubakha/static/media/Logo.147585b88fedf1d51c7d54a2fb66186e.svg",
     "static/media/GithubIcon.svg": "/website-Anna-Zubakha/static/media/GithubIcon.3c903c66b2c5334c8c0b80567c4ea422.svg",
     "index.html": "/website-Anna-Zubakha/index.html",
     "static/media/LinkedinIcon.svg": "/website-Anna-Zubakha/static/media/LinkedinIcon.15f0337078f13db400acab3639711ec7.svg",
-    "main.3c99a739.css.map": "/website-Anna-Zubakha/static/css/main.3c99a739.css.map",
-    "main.8a342947.js.map": "/website-Anna-Zubakha/static/js/main.8a342947.js.map"
+    "main.7d15fda7.css.map": "/website-Anna-Zubakha/static/css/main.7d15fda7.css.map",
+    "main.a50b475c.js.map": "/website-Anna-Zubakha/static/js/main.a50b475c.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c99a739.css",
-    "static/js/main.8a342947.js"
+    "static/css/main.7d15fda7.css",
+    "static/js/main.a50b475c.js"
   ]
 }
