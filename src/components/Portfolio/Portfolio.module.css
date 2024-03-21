@@ -6,12 +6,12 @@
   font-size: 45px;
   letter-spacing: 1.5px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 .list {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-direction: column;
-  gap: 30px;
+  flex-wrap: wrap;
+  gap: 40px;
 }

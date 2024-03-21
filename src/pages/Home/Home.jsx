@@ -1,10 +1,13 @@
-import Hero from 'components/Hero/Hero';
-import SharedLayout from '../../components/SharedLaout/SharedLayout';
+import {
+  Hero,
+  SharedLayout,
+  Portfolio,
+  AboutMe,
+  Footer,
+  GoUpBtn,
+} from '../../components';
 
-import Portfolio from 'components/Portfolio/Portfolio';
-import AboutMe from 'components/AboutMe/AboutMe';
-import Footer from 'components/Footer/Footer';
-export const Home = () => {
+const Home = () => {
   return (
     <>
       <SharedLayout />
@@ -12,8 +15,11 @@ export const Home = () => {
         <Hero />
         <Portfolio />
         <AboutMe />
+        <GoUpBtn />
       </main>
       <Footer />
     </>
   );
 };
+
+export default Home;

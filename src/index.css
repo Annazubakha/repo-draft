@@ -1,17 +1,11 @@
 @import-normalize; /* bring in normalize.css styles */
 
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
-
 :root {
   --background-color: #9736bb;
   --background-header: #541c66;
   --text-color: #fcfbfe;
-  --hover: #8c5c74;
+  --hover: #8c2b6b;
   --gradient-color: #8c2b6b;
-
   --delay: 350ms;
   --transition: ease;
 }

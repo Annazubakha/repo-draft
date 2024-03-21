@@ -1,0 +1,28 @@
+.scroll_btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: transparent;
+  color: var(--text-color);
+  border: 3px solid var(--background-header);
+  border-radius: 50%;
+  padding: 5px 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity var(--delay) var(--transition);
+}
+
+.scroll_btn.show {
+  opacity: 1;
+}
+.icon {
+  fill: var(--text-color);
+  width: 25px;
+}
+
+.scroll_btn:hover {
+  background-color: var(--background-header);
+}
