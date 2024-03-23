@@ -3,7 +3,7 @@ Hi, everyone
 
 My name is Anna Zubakha and I'm a JUNIOR FRONT-END DEVELOPER.
 
-Please, visit my web-site to learn more about me and my projects.
+Please, visit my website to learn more about me and my projects.
 
 Click here: https://annazubakha.github.io/website-Anna-Zubakha/
 

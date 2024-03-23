@@ -22,15 +22,13 @@ export const ProjectThree = () => {
       </picture>
       <div>
         <div className={s.description_inside_wrapper}>
-          <p className={s.description}>
-            The site for tracking income and expense.
-          </p>
-          <p className={s.text}>
+          <p>The site for tracking income and expense.</p>
+          <p>
             <span className={s.span_text}>Used technologies:</span> HTML, CSS,
             React, Redux.
           </p>
 
-          <p className={s.text}>
+          <p>
             <span className={s.span_text}>Done:</span> welcome page, login and
             register pages.
           </p>

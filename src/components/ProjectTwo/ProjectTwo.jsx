@@ -22,16 +22,15 @@ export const ProjectTwo = () => {
       </picture>
       <div>
         <div className={s.description_inside_wrapper}>
-          <p className={s.description}>
+          <p>
             An online store for purchasing products with a convenient and
             intuitive interface.
           </p>
-          <p className={s.text}>
+          <p>
             <span className={s.span_text}>Used technologies:</span> HTML, CSS,
             JS, Parcel.
           </p>
-
-          <p className={s.text}>
+          <p>
             <span className={s.span_text}>Done:</span> header, filtering by
             alphabet, popularity and price.
           </p>

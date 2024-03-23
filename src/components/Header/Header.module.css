@@ -4,30 +4,69 @@
   background-color: var(--background-header);
   display: flex;
   align-items: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1000;
 }
+
+@media only screen and (min-width: 1440px) {
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .burger {
+    display: none;
+  }
+}
+
 .nav {
   width: 100%;
-  padding: 0 100px;
+  padding: 0 20px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+}
+@media only screen and (min-width: 768px) {
+  .nav {
+    padding: 0 32px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .nav {
+    padding: 0 100px;
+  }
 }
 
 .header_list {
-  display: flex;
-  gap: 30px;
+  display: none;
 }
+@media only screen and (min-width: 768px) {
+  .header_list {
+    display: flex;
+    gap: 15px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .header_list {
+    gap: 30px;
+  }
+}
+
 .header_list_item {
-  font-size: 30px;
+  font-size: 24px;
   letter-spacing: 1.5px;
   display: flex;
   align-items: center;
   transition: color var(--delay) var(--transition);
   cursor: pointer;
+}
+@media only screen and (min-width: 1440px) {
+  .header_list_item {
+    font-size: 30px;
+  }
 }
 
 .header_list_item:hover,
@@ -36,6 +75,19 @@
 }
 
 .icon {
-  width: 36px;
-  height: 36px;
+  width: 28px;
+  height: 28px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .icon {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+@media only screen and (max-width: 1439.99px) {
+  .my_logo {
+    width: 240px;
+  }
 }

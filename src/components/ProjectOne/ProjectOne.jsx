@@ -23,14 +23,11 @@ export const ProjectOne = () => {
       </picture>
       <div>
         <div className={s.description_inside_wrapper}>
-          <p className={s.description}>
-            The store for sale Ukrainian national clothes.
-          </p>
-          <p className={s.text}>
+          <p>The store for sale Ukrainian national clothes.</p>
+          <p>
             <span className={s.span_text}>Used technologies:</span> HTML, CSS.
           </p>
-
-          <p className={s.text}>
+          <p>
             <span className={s.span_text}>Done:</span> section Testimonials.
           </p>
         </div>

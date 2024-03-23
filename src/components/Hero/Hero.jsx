@@ -21,7 +21,7 @@ export const Hero = () => {
             thinking.
           </p>
         </div>
-        <img className={s.project_foto} src={myPhoto} alt="Anna Zubakha" />
+        <img className={s.my_foto} src={myPhoto} alt="Anna Zubakha" />
       </div>
     </section>
   );

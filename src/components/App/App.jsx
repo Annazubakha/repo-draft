@@ -1,9 +1,22 @@
-import { Suspense, lazy } from 'react';
+import { Suspense, lazy, useEffect } from 'react';
 import { Loader } from 'components';
-import { Navigate, Route, Routes } from 'react-router-dom';
-
+import { Navigate, Route, Routes, useLocation } from 'react-router-dom';
+import { animateScroll as scroll } from 'react-scroll';
 const Home = lazy(() => import('../../pages/Home/Home'));
 
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    const scrollToTop = () => {
+      scroll.scrollToTop({ duration: 2500 });
+    };
+
+    scrollToTop();
+  }, [pathname]);
+
+  return null;
+};
 export const App = () => {
   return (
     <div>
@@ -12,6 +25,7 @@ export const App = () => {
           index
           element={
             <Suspense fallback={<Loader />}>
+              <ScrollToTop />
               <Home />
             </Suspense>
           }

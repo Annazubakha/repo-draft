@@ -1,33 +1,92 @@
 .section_hero {
-  padding-top: 185px;
-  padding-bottom: 100px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media only screen and (min-width: 768px) {
+  .section_hero {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .section_hero {
+    padding-top: 185px;
+    padding-bottom: 135px;
+  }
 }
 
 .wrapper {
-  height: 500px;
   border-radius: 20px;
   background: var(--background-header);
   display: flex;
-  padding: 40px 80px;
+  flex-direction: column;
+  padding: 20px;
   align-items: center;
-
-  gap: 50px;
+  gap: 10px;
+}
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    flex-direction: row;
+    height: 350px;
+    padding: 20px;
+    gap: 30px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .wrapper {
+    height: 500px;
+    padding: 40px 80px;
+    gap: 50px;
+  }
 }
 
 .title {
   text-transform: uppercase;
-  font-size: 60px;
-  margin-bottom: 15px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  .title {
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-align: left;
+  }
 }
 
-.project_foto {
-  width: 386px;
+@media only screen and (min-width: 1440px) {
+  .title {
+    font-size: 50px;
+    margin-bottom: 15px;
+  }
+}
+
+.my_foto {
+  width: 257px;
   border-radius: 15px;
+}
+@media only screen and (min-width: 1440px) {
+  .my_foto {
+    width: 386px;
+  }
 }
 
 .description {
-  font-size: 30px;
-  text-align: justify;
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .description {
+    display: block;
+    font-size: 22px;
+    text-align: justify;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .description {
+    font-size: 28px;
+  }
 }
 
 .accent {

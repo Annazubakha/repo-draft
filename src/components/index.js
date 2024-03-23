@@ -10,3 +10,4 @@ export * from './ProjectOne/ProjectOne';
 export * from './ProjectThree/ProjectThree';
 export * from './ProjectTwo/ProjectTwo';
 export * from './Hero/Hero';
+export * from './BurgerMenu/BurgerMenu';
