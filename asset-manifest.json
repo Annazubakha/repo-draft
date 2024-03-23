@@ -1,22 +1,29 @@
 {
   "files": {
-    "main.css": "/website-Anna-Zubakha/static/css/main.7d15fda7.css",
-    "main.js": "/website-Anna-Zubakha/static/js/main.a50b475c.js",
+    "main.css": "/website-Anna-Zubakha/static/css/main.3413beaf.css",
+    "main.js": "/website-Anna-Zubakha/static/js/main.fb445cd4.js",
+    "static/js/544.801e23ef.chunk.js": "/website-Anna-Zubakha/static/js/544.801e23ef.chunk.js",
     "static/media/boutique@2x.png": "/website-Anna-Zubakha/static/media/boutique@2x.f0aec1ec0436f467dabe.png",
     "static/media/tracker@2x.png": "/website-Anna-Zubakha/static/media/tracker@2x.537d875a8ef727c9dcbf.png",
     "static/media/vyshyvanka@2x.png": "/website-Anna-Zubakha/static/media/vyshyvanka@2x.713c2e74ddb76ea662b1.png",
     "static/media/boutique@1x.png": "/website-Anna-Zubakha/static/media/boutique@1x.e2da72c84e6c82e4445e.png",
+    "static/media/myPhoto.jpg": "/website-Anna-Zubakha/static/media/myPhoto.b8291d5610f99089559d.jpg",
     "static/media/tracker@1x.png": "/website-Anna-Zubakha/static/media/tracker@1x.92ac89a11fef778e4cf3.png",
     "static/media/vyshyvanka@1x.png": "/website-Anna-Zubakha/static/media/vyshyvanka@1x.48dc487e62fe90955eed.png",
     "static/media/Logo.svg": "/website-Anna-Zubakha/static/media/Logo.147585b88fedf1d51c7d54a2fb66186e.svg",
+    "static/media/Whatsapp.svg": "/website-Anna-Zubakha/static/media/Whatsapp.6cb90ccfeb8bdd91a4faaa298a34fc2f.svg",
     "static/media/GithubIcon.svg": "/website-Anna-Zubakha/static/media/GithubIcon.3c903c66b2c5334c8c0b80567c4ea422.svg",
     "index.html": "/website-Anna-Zubakha/index.html",
     "static/media/LinkedinIcon.svg": "/website-Anna-Zubakha/static/media/LinkedinIcon.15f0337078f13db400acab3639711ec7.svg",
-    "main.7d15fda7.css.map": "/website-Anna-Zubakha/static/css/main.7d15fda7.css.map",
-    "main.a50b475c.js.map": "/website-Anna-Zubakha/static/js/main.a50b475c.js.map"
+    "static/media/GoUp.svg": "/website-Anna-Zubakha/static/media/GoUp.c35178ae1536766dfcfb4c25f7c7bab0.svg",
+    "static/media/CloseIcon.svg": "/website-Anna-Zubakha/static/media/CloseIcon.ef634d0f8443520a94ac8bffbff2a44f.svg",
+    "static/media/Burger.svg": "/website-Anna-Zubakha/static/media/Burger.874b77e2994ee28d5b0e99b8a2c2aca6.svg",
+    "main.3413beaf.css.map": "/website-Anna-Zubakha/static/css/main.3413beaf.css.map",
+    "main.fb445cd4.js.map": "/website-Anna-Zubakha/static/js/main.fb445cd4.js.map",
+    "544.801e23ef.chunk.js.map": "/website-Anna-Zubakha/static/js/544.801e23ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d15fda7.css",
-    "static/js/main.a50b475c.js"
+    "static/css/main.3413beaf.css",
+    "static/js/main.fb445cd4.js"
   ]
 }
