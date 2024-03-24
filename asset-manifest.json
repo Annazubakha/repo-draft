@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website-Anna-Zubakha/static/css/main.3413beaf.css",
-    "main.js": "/website-Anna-Zubakha/static/js/main.fb445cd4.js",
+    "main.css": "/website-Anna-Zubakha/static/css/main.e5be21e9.css",
+    "main.js": "/website-Anna-Zubakha/static/js/main.63af031e.js",
     "static/js/544.801e23ef.chunk.js": "/website-Anna-Zubakha/static/js/544.801e23ef.chunk.js",
     "static/media/boutique@2x.png": "/website-Anna-Zubakha/static/media/boutique@2x.f0aec1ec0436f467dabe.png",
     "static/media/tracker@2x.png": "/website-Anna-Zubakha/static/media/tracker@2x.537d875a8ef727c9dcbf.png",
@@ -18,12 +18,12 @@
     "static/media/GoUp.svg": "/website-Anna-Zubakha/static/media/GoUp.c35178ae1536766dfcfb4c25f7c7bab0.svg",
     "static/media/CloseIcon.svg": "/website-Anna-Zubakha/static/media/CloseIcon.ef634d0f8443520a94ac8bffbff2a44f.svg",
     "static/media/Burger.svg": "/website-Anna-Zubakha/static/media/Burger.874b77e2994ee28d5b0e99b8a2c2aca6.svg",
-    "main.3413beaf.css.map": "/website-Anna-Zubakha/static/css/main.3413beaf.css.map",
-    "main.fb445cd4.js.map": "/website-Anna-Zubakha/static/js/main.fb445cd4.js.map",
+    "main.e5be21e9.css.map": "/website-Anna-Zubakha/static/css/main.e5be21e9.css.map",
+    "main.63af031e.js.map": "/website-Anna-Zubakha/static/js/main.63af031e.js.map",
     "544.801e23ef.chunk.js.map": "/website-Anna-Zubakha/static/js/544.801e23ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3413beaf.css",
-    "static/js/main.fb445cd4.js"
+    "static/css/main.e5be21e9.css",
+    "static/js/main.63af031e.js"
   ]
 }
