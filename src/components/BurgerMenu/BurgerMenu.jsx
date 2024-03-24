@@ -1,4 +1,3 @@
-import { ScrollLink } from 'react-scroll';
 import s from './BurgerMenu.module.css';
 import { Link } from 'react-router-dom';
 
@@ -12,48 +11,33 @@ export const BurgerMenu = () => {
   return (
     <div className={s.burger_wrapper}>
       <Logo className={s.my_logo} />
-      <CloseIcon className={s.close_icon} />
-      <ul className={s.header_list}>
-        <li className={s.header_list_item}>
-          <ScrollLink
-            to="about-me"
-            spy={true}
-            smooth={true}
-            offset={-85}
-            duration={1500}
-          >
-            About me
-          </ScrollLink>
-        </li>
-        <li className={s.header_list_item}>
-          <ScrollLink
-            to="portfolio"
-            spy={true}
-            smooth={true}
-            offset={-85}
-            duration={1500}
-          >
-            Portfolio
-          </ScrollLink>
-        </li>
-        <li className={s.header_list_item_social_media}>
-          <Link to="https://github.com/Annazubakha">
-            <GithubIcon className={s.icon} />
-          </Link>
-        </li>
-        <li className={s.header_list_item_social_media}>
-          <Link to="https://www.linkedin.com/in/anna-zubakha/">
-            <LinkedinIcon className={s.icon} />
-          </Link>
-        </li>
-        <li className={s.header_list_item_social_media}>
-          <Link to="https://wa.me/380982417614">
-            <Whatsapp className={s.icon} />
-          </Link>
-        </li>
-        <li>About me</li>
-        <li>Portfolio</li>
-      </ul>
+
+      <div className={s.inside_wrapper}>
+        <button type="button" className={s.close_button}>
+          <CloseIcon className={s.close_icon} />
+        </button>
+        <ul className={s.header_list}>
+          <li>About me</li>
+          <li>Portfolio</li>
+        </ul>
+        <ul className={s.header_list_social}>
+          <li className={s.header_list_item_social_media}>
+            <Link to="https://github.com/Annazubakha">
+              <GithubIcon className={s.icon} />
+            </Link>
+          </li>
+          <li className={s.header_list_item_social_media}>
+            <Link to="https://www.linkedin.com/in/anna-zubakha/">
+              <LinkedinIcon className={s.icon} />
+            </Link>
+          </li>
+          <li className={s.header_list_item_social_media}>
+            <Link to="https://wa.me/380982417614">
+              <Whatsapp className={s.icon} />
+            </Link>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };
