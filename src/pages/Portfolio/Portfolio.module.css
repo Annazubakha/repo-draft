@@ -1,15 +1,21 @@
 .section_portfolio {
-  padding-bottom: 60px;
+  padding: 40px 8px 60px 8px;
 }
 
 @media only screen and (min-width: 768px) {
   .section_portfolio {
+    padding-top: 60px;
     padding-bottom: 80px;
+    padding: 40px 60px 60px 60px;
   }
 }
+
 @media only screen and (min-width: 1440px) {
   .section_portfolio {
-    padding-bottom: 100px;
+    padding-top: 120px;
+    padding-bottom: 135px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 }
 
@@ -34,7 +40,7 @@
 
 .list {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   align-items: center;
   flex-wrap: wrap;
   gap: 40px;

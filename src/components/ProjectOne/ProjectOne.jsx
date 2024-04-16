@@ -9,41 +9,42 @@ export const ProjectOne = () => {
   return (
     <li className={s.list_item}>
       <h3 className={s.project_name}>Vyshyvanka Vibes</h3>
-
-      <picture className={s.picture}>
-        <source
-          srcSet={`${project1Img1} 1x, ${project1Img2} 2x`}
-          type="image/png"
-        />
-        <img
-          className={s.project_foto}
-          src={project1Img1}
-          alt="Vysyvanka Vibes project"
-        />
-      </picture>
-      <div>
-        <div className={s.description_inside_wrapper}>
-          <p>The store for sale Ukrainian national clothes.</p>
-          <p>
-            <span className={s.span_text}>Used technologies:</span> HTML, CSS.
-          </p>
-          <p>
-            <span className={s.span_text}>Done:</span> section Testimonials.
-          </p>
-        </div>
-        <div className={s.links_wrapper}>
-          <Link
-            className={s.project_link_website}
-            to="https://dimkagrek.github.io/WhiteCode01-project/"
-          >
-            Website
-          </Link>
-          <Link
-            className={s.project_link_repo}
-            to="https://github.com/DimkaGrek/WhiteCode01-project"
-          >
-            Github repository
-          </Link>
+      <div className={s.additional_wrapper}>
+        <picture className={s.picture}>
+          <source
+            srcSet={`${project1Img1} 1x, ${project1Img2} 2x`}
+            type="image/png"
+          />
+          <img
+            className={s.project_foto}
+            src={project1Img1}
+            alt="Vysyvanka Vibes project"
+          />
+        </picture>
+        <div>
+          <div className={s.description_inside_wrapper}>
+            <p>The store for sale Ukrainian national clothes.</p>
+            <p>
+              <span className={s.span_text}>Used technologies:</span> HTML, CSS.
+            </p>
+            <p>
+              <span className={s.span_text}>Done:</span> section Testimonials.
+            </p>
+          </div>
+          <div className={s.links_wrapper}>
+            <Link
+              className={s.project_link_website}
+              to="https://dimkagrek.github.io/WhiteCode01-project/"
+            >
+              Website
+            </Link>
+            <Link
+              className={s.project_link_repo}
+              to="https://github.com/DimkaGrek/WhiteCode01-project"
+            >
+              Github repository
+            </Link>
+          </div>
         </div>
       </div>
     </li>

@@ -5,7 +5,6 @@ export * from './Header/Header';
 export * from './Footer/Footer';
 export * from './GoUpBtn/GoUpBtn';
 export * from './SharedLaout/SharedLayout.jsx';
-export * from './Portfolio/Portfolio';
 export * from './ProjectOne/ProjectOne';
 export * from './ProjectThree/ProjectThree';
 export * from './ProjectTwo/ProjectTwo';

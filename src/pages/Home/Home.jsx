@@ -1,11 +1,4 @@
-import {
-  Hero,
-  SharedLayout,
-  Portfolio,
-  AboutMe,
-  Footer,
-  GoUpBtn,
-} from '../../components';
+import { Hero, SharedLayout, AboutMe, Footer, GoUpBtn } from '../../components';
 
 const Home = () => {
   return (
@@ -13,7 +6,6 @@ const Home = () => {
       <SharedLayout />
       <main className="container">
         <Hero />
-        <Portfolio />
         <AboutMe />
         <GoUpBtn />
       </main>

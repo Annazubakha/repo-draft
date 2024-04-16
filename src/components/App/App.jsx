@@ -3,6 +3,7 @@ import { Loader } from 'components';
 import { Navigate, Route, Routes, useLocation } from 'react-router-dom';
 import { animateScroll as scroll } from 'react-scroll';
 const Home = lazy(() => import('../../pages/Home/Home'));
+const Portfolio = lazy(() => import('../../pages/Portfolio/Portfolio'));
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -27,6 +28,14 @@ export const App = () => {
             <Suspense fallback={<Loader />}>
               <ScrollToTop />
               <Home />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/portfolio"
+          element={
+            <Suspense fallback={<Loader />}>
+              <Portfolio />
             </Suspense>
           }
         />
