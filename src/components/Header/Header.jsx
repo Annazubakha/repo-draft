@@ -35,7 +35,9 @@ export const Header = () => {
         <Link to="/" onClick={scrollToTop}>
           <Logo className={s.my_logo} />
         </Link>
-        <Burger className={s.burger} onClick={handleBurgerClick} />
+        <button onClick={handleBurgerClick} className={s.burger_btn}>
+          <Burger className={s.burger} onClick={handleBurgerClick} />
+        </button>
         {isMobileMenuOpen && <BurgerMenu />}
         <ul className={s.header_list}>
           <li className={s.header_list_item}>

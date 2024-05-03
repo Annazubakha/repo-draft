@@ -6,19 +6,39 @@ import { ReactComponent as GithubIcon } from '../../assets/icons/GithubIcon.svg'
 import { ReactComponent as LinkedinIcon } from '../../assets/icons/LinkedinIcon.svg';
 import { ReactComponent as Whatsapp } from '../../assets/icons/Whatsapp.svg';
 import { ReactComponent as CloseIcon } from '../../assets/icons/CloseIcon.svg';
+import { useState } from 'react';
 
 export const BurgerMenu = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+  if (isOpen) return null;
   return (
-    <div className={s.burger_wrapper}>
+    <div className={`${s.burger_wrapper} ${isOpen ? s.open : ''}`}>
       <Logo className={s.my_logo} />
 
       <div className={s.inside_wrapper}>
-        <button type="button" className={s.close_button}>
+        <button
+          type="button"
+          className={s.close_button}
+          onClick={() => {
+            setIsOpen(true);
+          }}
+        >
           <CloseIcon className={s.close_icon} />
         </button>
         <ul className={s.header_list}>
-          <li>About me</li>
-          <li>Portfolio</li>
+          <li>
+            <Link to="/" className={s.portfolio_link} onClick={toggleMenu}>
+              About me
+            </Link>
+          </li>
+          <li>
+            <Link to="/portfolio" onClick={toggleMenu}>
+              Portfolio
+            </Link>
+          </li>
         </ul>
         <ul className={s.header_list_social}>
           <li className={s.header_list_item_social_media}>

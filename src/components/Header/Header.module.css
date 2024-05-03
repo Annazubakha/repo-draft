@@ -19,7 +19,16 @@
     display: none;
   }
 }
-
+@media only screen and (min-width: 768px) {
+  .burger_btn {
+    display: none;
+  }
+}
+.burger_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .nav {
   width: 100%;
   padding: 0 20px;
