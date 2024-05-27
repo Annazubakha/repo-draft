@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/website-Anna-Zubakha/static/css/main.fdf4ed27.css",
-    "main.js": "/website-Anna-Zubakha/static/js/main.db8b6c51.js",
-    "static/js/544.68339139.chunk.js": "/website-Anna-Zubakha/static/js/544.68339139.chunk.js",
-    "static/css/147.5fd83d16.chunk.css": "/website-Anna-Zubakha/static/css/147.5fd83d16.chunk.css",
-    "static/js/147.ffa93efe.chunk.js": "/website-Anna-Zubakha/static/js/147.ffa93efe.chunk.js",
+    "main.js": "/website-Anna-Zubakha/static/js/main.c32ea19d.js",
+    "static/js/544.26730eb1.chunk.js": "/website-Anna-Zubakha/static/js/544.26730eb1.chunk.js",
+    "static/css/752.9efaa2f0.chunk.css": "/website-Anna-Zubakha/static/css/752.9efaa2f0.chunk.css",
+    "static/js/752.6bfe9f1b.chunk.js": "/website-Anna-Zubakha/static/js/752.6bfe9f1b.chunk.js",
     "static/media/boutique@2x.png": "/website-Anna-Zubakha/static/media/boutique@2x.f0aec1ec0436f467dabe.png",
     "static/media/tracker@2x.png": "/website-Anna-Zubakha/static/media/tracker@2x.537d875a8ef727c9dcbf.png",
     "static/media/taskpro@2x.png": "/website-Anna-Zubakha/static/media/taskpro@2x.10f6c7d74ce305dd828c.png",
+    "static/media/Screenshot_1.png": "/website-Anna-Zubakha/static/media/Screenshot_1.ae4e0d38f92c3e556c9e.png",
     "static/media/vyshyvanka@2x.png": "/website-Anna-Zubakha/static/media/vyshyvanka@2x.713c2e74ddb76ea662b1.png",
     "static/media/boutique@1x.png": "/website-Anna-Zubakha/static/media/boutique@1x.e2da72c84e6c82e4445e.png",
     "static/media/myPhoto.jpg": "/website-Anna-Zubakha/static/media/myPhoto.b8291d5610f99089559d.jpg",
@@ -23,13 +24,13 @@
     "static/media/CloseIcon.svg": "/website-Anna-Zubakha/static/media/CloseIcon.ef634d0f8443520a94ac8bffbff2a44f.svg",
     "static/media/Burger.svg": "/website-Anna-Zubakha/static/media/Burger.874b77e2994ee28d5b0e99b8a2c2aca6.svg",
     "main.fdf4ed27.css.map": "/website-Anna-Zubakha/static/css/main.fdf4ed27.css.map",
-    "main.db8b6c51.js.map": "/website-Anna-Zubakha/static/js/main.db8b6c51.js.map",
-    "544.68339139.chunk.js.map": "/website-Anna-Zubakha/static/js/544.68339139.chunk.js.map",
-    "147.5fd83d16.chunk.css.map": "/website-Anna-Zubakha/static/css/147.5fd83d16.chunk.css.map",
-    "147.ffa93efe.chunk.js.map": "/website-Anna-Zubakha/static/js/147.ffa93efe.chunk.js.map"
+    "main.c32ea19d.js.map": "/website-Anna-Zubakha/static/js/main.c32ea19d.js.map",
+    "544.26730eb1.chunk.js.map": "/website-Anna-Zubakha/static/js/544.26730eb1.chunk.js.map",
+    "752.9efaa2f0.chunk.css.map": "/website-Anna-Zubakha/static/css/752.9efaa2f0.chunk.css.map",
+    "752.6bfe9f1b.chunk.js.map": "/website-Anna-Zubakha/static/js/752.6bfe9f1b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fdf4ed27.css",
-    "static/js/main.db8b6c51.js"
+    "static/js/main.c32ea19d.js"
   ]
 }
