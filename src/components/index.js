@@ -8,5 +8,7 @@ export * from './SharedLaout/SharedLayout.jsx';
 export * from './ProjectOne/ProjectOne';
 export * from './ProjectThree/ProjectThree';
 export * from './ProjectTwo/ProjectTwo';
+export * from './ProjectFour/ProjectFour';
+export * from './ProjectFive/ProjectFive';
 export * from './Hero/Hero';
 export * from './BurgerMenu/BurgerMenu';
