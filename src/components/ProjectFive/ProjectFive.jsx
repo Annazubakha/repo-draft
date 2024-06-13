@@ -29,7 +29,7 @@ export const ProjectFive = () => {
             </p>
 
             <p>
-              <span className={s.span_text}>In progress</span>
+              <span className={s.span_text}>Done:</span> all of the site.
             </p>
           </div>
           <div className={s.links_wrapper}>
